@@ -90,44 +90,6 @@ The server will start and be accessible at `http://localhost:8000`.
      Temperature set to 22 degrees.
       ```
 
-### Development
-
-#### Prerequisites
-- Python 3.12 or higher
-- Pip
-
-#### Setup
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/gjorret/thermia-api-server.git
-   cd thermia-api-server
-   ```
-
-2. **Create a virtual environment and install dependencies**:
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-3. **Run the server locally**:
-
-   ```bash
-   export USERNAME=your_thermia_username
-   export PASSWORD=your_thermia_password
-   gunicorn -b 0.0.0.0:8000 src.app:app
-   ```
-
-### Configuration
-
-#### Environment Variables
-- `USERNAME`: Thermia Online account username.
-- `PASSWORD`: Thermia Online account password.
-
-#### Docker Configuration
-- To change the port or environment variables, modify the `.env` file or the Docker run command.
 
 ### Reference to Original Project
 This project is built on top of the [python-thermia-online-api](https://github.com/klejejs/python-thermia-online-api). Special thanks to the original author for providing the Thermia Online API Python interface.
