@@ -52,7 +52,7 @@ The server will start and be accessible at `http://localhost:8000`.
 
 - **Description:** This endpoint exposes the Prometheus-formatted metrics of the Thermia heat pump.
 
-- **Response:** A plain text response in Prometheus metrics format containing various heat pump statistics, including temperatures, operational times, and heating effects.
+- **Response:** A plain text response in Prometheus metrics format containing various heat pump statistics, including temperatures, operational times, and heating effect.
 
 - **Example Response:**
 
