@@ -86,10 +86,8 @@ The server will start and be accessible at `http://localhost:8000`.
 
    - **200 OK:** The temperature was set successfully.
 
-      ```json
-      {
-         "message": "Temperature set to 22 degrees."
-      }
+      ```
+     Temperature set to 22 degrees.
       ```
 
 ### Development
