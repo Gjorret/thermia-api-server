@@ -37,7 +37,11 @@ docker pull gjorret/thermia-api-server:latest
 Run the Docker container, passing in the `.env` file:
 
 ```bash
-docker run --env-file .env -p 8000:8000 gjorret/thermia-api-server:latest
+docker run -d --env-file .env -p 8000:8000 gjorret/thermia-api-server:latest
+```
+Or just add the environment variables directly in the docker run command:
+```bash
+docker run -d --env USERNAME='your_username' --env PASSWORD='your_password' -p 8000:8000 gjorret/thermia-api-server
 ```
 
 The server will start and be accessible at `http://localhost:8000`.
