@@ -26,15 +26,15 @@
 }
 
 /*
-
 Fix this to be done automatic after migration to Coder, but for now...
-Run coder portforwarding to devbox:
+Run coder portforwarding to workspace:
+
 Coder:
 coder port-forward workspace_name --tcp 0.0.0.0:8000:8000
+
 Workspace:
 su vscode
 add env after workspace deployment:
 export USERNAME=<username>
 export PASSWORD=<password>
-
 */ 
