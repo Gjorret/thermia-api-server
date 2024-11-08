@@ -104,4 +104,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ### Contact
-For any questions or issues, feel free to reach out through the GitHub repository's issues section.
+For any questions or issues, feel free to reach out through the GitHub repository's issues section..
